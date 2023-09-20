@@ -9,3 +9,8 @@
 #imageId_list{
 	pointer-events: none;
 }
+
+.task-title-done {
+	text-decoration: line-through;
+	color: #CDCDCD;
+   }
