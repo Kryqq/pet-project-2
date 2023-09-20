@@ -1,0 +1,11 @@
+* {
+   box-sizing: border-box;
+}
+
+.none {
+   display: none !important;
+}
+
+#imageId_list{
+	pointer-events: none;
+}

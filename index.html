@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>Список задач</title>
+   </head>
+   <body>
+      <div class="outdoor-wripper">
+         <div class="header-info">
+            <h1>Список задач</h1>
+         </div>
+         <div class="main-body-wrapper">
+            <div>
+               <ul class="list-of-tasks">
+                  <li id="emptyList">Список дел пуст</li>
+                  <!-- <li id="taskList">
+                     <span id="taskListId">Сходить в магазин</span>
+                     <button class = "btn-action"><img src="#" alt="Выполнено" /></button
+                     ><button "btn-action"><img src="#" alt="Удалить" /></button>
+                  </li> -->
+               </ul>
+            </div>
+            <form id="form">
+               <div class="input-task">
+                  <input
+                     type="text"
+                     id="inputTask"
+                     placeholder="Введите задачу"
+                  />
+                  <label for="input">Что необходимо сделать</label>
+               </div>
+               <button class="main-button" type="submit">Добавить</button>
+            </form>
+         </div>
+      </div>
+   </body>
+   <script src="app.js"></script>
+</html>
